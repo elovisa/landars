@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <title>Bootstrap</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+       <!-- jQuery and JS bundle w/ Popper.js -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> 
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+          <!--Navigation bar-->
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">Landars</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="kontakt.html">Kontakt <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="restaurang.html">Restaurangen</a>
+                </li>
+                <li class="nav-item dropdown active">
+                  <a class="nav-link dropdown-toggle" href="catering.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Catering
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="brollop.html">Bröllop</a>
+                    <a class="dropdown-item" href="julbord.html">Julbord</a>
+                    <a class="dropdown-item" href="spis.html">Helgens spis</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        <!--Jumbotron titel-->
+        <div class="title">
+          <h1><small class="text-muted">KÖK</small> LANDARS <small class="text-muted">BAR</small></h1>
+        </div>
+      
+        <!--Div om tjänsterna-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                  <img src="spis.jpg" class="img-thumbnail" alt="Bröllops catering">
+                  <h3>Bröllop</h3>
+                  <p>Vi har lång erfarenhet av catering på bröllop. Hör av dig till oss så lägger vi upp
+                    en plan. Du väljer menyn, vi lagar och serverar maten. Du kan även få hjälp 
+                    med dryckesval och servering.
+                  </p>
+                      <a class="btn btn-success" type="button" href="brollop.html">Bröllop</a>
+                </div>
+                <div class="col-sm-6">
+                    <img src="jul.jpg" class="img-thumbnail" alt="Julbords catering">
+                    <!--Julbord-->
+                    <h3>Julbord</h3>
+                    <p>På Broby Gård kan du njuta av vårt klassiska julbord i vacker miljö.
+                      Njut av ett julbord lagat & bakat på bra råvaror från närområdet. 
+                      Maten lagar vi från grunden och vi använder oss utav traditionella smaker & tillredningssätt.</p>
+                    <a class="btn btn-success" type="button" href="julbord.html">Julbord</a>
+                </div>
+                <div class="col-sm-3">
+                    <img src="te.jpg" class="img-thumbnail" alt="Spis">  
+                    <h3>Helgens spis</h3>
+                    <p>Beställ catering för helgens middag, en trerättersmåltid. 495kr/per person. Vi förbereder så
+                        långt det går och ger er instruktioner för påvärmning. Middag=klappat och klart. Perfekt för 
+                        bjudningar, eller bara en vardagslyx.
+                    </p>
+                    <a class="btn btn-success" type="button" href="spis.html">Helgens spis</a>
+                 </div>
+            </div>
+        </div>
+
+        <footer>
+          <div class="text-center">
+            <p><strong><a href="index.html">Landars kök & bar</a></strong> I Mästergatan 1, 745 37 Enköping</p>       
+          </div>
+        </footer>
+    </body>
+</html>

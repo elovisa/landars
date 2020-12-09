@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/*CSS*/
+/*Footer color*/
+.img-fluid {
+  margin: 15px 2px 15px 2px;
+}
+
+.img-thumbnail {
+  margin: 15px 2px 15px 2px;
+}
+
+body h1, body h2, body h3 {
+  color: #178d0f;
+  font-family: "Cantata One";
+}
+
+body h3 {
+  font-size: 25px;
+}
+
+nav li.active, nav a.active {
+  border-bottom: double;
+  border-color: #82a680;
+}
+
+nav .dropdown-menu:hover .dropdown-item {
+  display: block;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /*Använd wrap-reverse om du vill att den vänstra div ska vara under den högra när skärmen blir minder*/
+}
+
+.flex-container div {
+  width: 600px;
+}
+
+.title {
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+#res {
+  /*Paragrafen nedanför bilden på restaurang.html */
+  padding: 10px;
+}
+
+footer {
+  background-color: #034201;
+  color: white;
+  bottom: 0;
+  padding: 10px;
+  margin-top: 25px;
+}
+
+footer a, footer a:hover {
+  text-decoration: none;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <title>Bootstrap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- jQuery and JS bundle w/ Popper.js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!--Navigation bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand active" href="index.html">Landars</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="kontakt.html">Kontakt <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="restaurang.html">Restaurangen</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="catering.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Catering</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="brollop.html">Bröllop</a>
+              <a class="dropdown-item" href="julbord.html">Julbord</a>
+              <a class="dropdown-item" href="spis.html">Övrigt</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+        <!--Titel-->
+    <div class="title, text-center">
+      <h1><small class="text-muted">KÖK</small> LANDARS <small class="text-muted">BAR</small></h1>
+    </div>
+        <!--Div om tjänsterna-->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <!---Catering delen-->
+          <h3>Catering</h3>
+          <p>Bröllop, dop, begravning, en lyxig helg eller annat event, boka högkvalitativ 
+            catering hos oss! I år kommer vi likt förra året även ha en jul- och nyårscatering, då
+            du beställer mat och vi lagar så långt det går.</p>
+            <!--Knapp till catering-->
+          <a class="btn btn-success" type="button" href="catering.html">Mer om catering</a>
+        </div>
+        <div class="col-sm-6">
+          <!--Restaurangen-->
+          <img src="landars.jpg" class="img-fluid" alt="Landars restaurang">
+          <h3>Restaurangen</h3>
+          <p>Sedan 2016 har vi drivit lunchrestaurang i centrala Enköping. Efter en renovering
+            öppnar vi återigen, men nu som en kvällsrestaurang.
+            Boka bord och säkra din plats. Välkommen.
+          </p>
+          <!--Knapp till restaurangen-->
+          <a class="btn btn-success" type="button" href="restaurang.html">Boka bord</a>
+        </div>
+        <div class="col-sm-3">
+          <!--Broby café-->
+          <h3>Broby café</h3>
+          <p>I inredningsbutiken på Broby Gård driver vi café. I den vackra logen hittar du både nytt & vintage till ditt hem samt konstgalleri 
+             & du kan njuta av enklare luncher, hembakat fikabröd samt naturlig, ekologisk glass från Gute Glass
+             Under julbordsperioden kommer vi utöver vårat ordinarie utbud även erbjuda jultallrik.
+            Caféet & butiken håller öppet lördag & söndag 11:00-16:00.</p>
+         <!--Div som länkar till cafe, knapp-->
+          <a class="btn btn-success" type="button" href="http://www.brobygard.se/ ">Broby Gård</a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="text-center">
+        <p><strong><a href="index.html">Landars kök & bar</a></strong> I Mästergatan 1, 745 37 Enköping</p>         
+      </div>
+    </footer>
+  </body>
+</html>
